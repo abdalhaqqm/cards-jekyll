@@ -1,0 +1,73 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: KodePapringan
+email: kode@papringan.com
+description: > # this means to ignore newlines until "baseurl:"
+  KodePapringan adalah situs belajar koding dan pemrograman
+  
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kode.papringan.com" # the base hostname & protocol for your site
+
+#sidebar
+default-image: logo.webp # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+
+copyright:
+   name: KodePapringan
+   link: 'https://kode.papringan.com'
+
+# Build settings
+markdown: kramdown
+permalink: /post/:title
+paginate: 6
+paginate_path: /page:num/
+
+# Tracker
+analytics: 
+
+# Comments
+disqus: yes
+disqus-shortname: kodepapringan
+
+#contact
+formspree_id:
+
+#social
+facebook: 
+quora: 
+twitter: abdalhaqqm
+github: abdalhaqqm
+email: 
+
+#facebook like box
+fb-like-box: no
+fb-app-id: 
+fb-page-url: 
+fb-page-title: 
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
