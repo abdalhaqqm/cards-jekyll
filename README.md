@@ -12,4 +12,5 @@ Some customizations:
 - Add categorizing system (with category page)
 - Add sitemap (jekyll-sitemap plugin)
 - Change theme color
+- Lazyload Disqus
 - etc
